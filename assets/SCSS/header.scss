@@ -1,0 +1,25 @@
+header{
+    //section
+    section{
+    justify-content: space-between;
+    align-items: center;
+    }// end section
+
+    //nav
+    nav {
+        //ul
+        ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+                //li
+                li{
+                    //a
+                    a{
+                    color:$color-primaria;
+                    margin: 0px 15px;
+                    }// end a
+                }//end li
+        }//end ul
+    }// end nav
+}
